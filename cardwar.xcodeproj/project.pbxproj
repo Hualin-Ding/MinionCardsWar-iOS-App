@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D76E0DCD1A3B9C1900E5DFEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76E0DCC1A3B9C1900E5DFEC /* AppDelegate.swift */; };
+		D76E0DCF1A3B9C1900E5DFEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76E0DCE1A3B9C1900E5DFEC /* ViewController.swift */; };
+		D76E0DD21A3B9C1900E5DFEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D76E0DD01A3B9C1900E5DFEC /* Main.storyboard */; };
+		D76E0DD41A3B9C1900E5DFEC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D76E0DD31A3B9C1900E5DFEC /* Images.xcassets */; };
+		D76E0DD71A3B9C1900E5DFEC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D76E0DD51A3B9C1900E5DFEC /* LaunchScreen.xib */; };
+		D76E0DE31A3B9C1900E5DFEC /* cardwarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76E0DE21A3B9C1900E5DFEC /* cardwarTests.swift */; };
+		D7E9B9271A437A1D00CF9B21 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E9B9261A437A1D00CF9B21 /* AVFoundation.framework */; };
+		D7E9B9291A437A5A00CF9B21 /* MinionBananaSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7E9B9281A437A5A00CF9B21 /* MinionBananaSound.mp3 */; };
+		D7E9B92B1A438A5C00CF9B21 /* MinionWaterSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7E9B92A1A438A5C00CF9B21 /* MinionWaterSound.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D76E0DDD1A3B9C1900E5DFEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D76E0DBF1A3B9C1900E5DFEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D76E0DC61A3B9C1900E5DFEC;
+			remoteInfo = cardwar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D76E0DC71A3B9C1900E5DFEC /* cardwar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cardwar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D76E0DCB1A3B9C1900E5DFEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D76E0DCC1A3B9C1900E5DFEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D76E0DCE1A3B9C1900E5DFEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D76E0DD11A3B9C1900E5DFEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D76E0DD31A3B9C1900E5DFEC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D76E0DD61A3B9C1900E5DFEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D76E0DDC1A3B9C1900E5DFEC /* cardwarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cardwarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D76E0DE11A3B9C1900E5DFEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D76E0DE21A3B9C1900E5DFEC /* cardwarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardwarTests.swift; sourceTree = "<group>"; };
+		D7E9B9261A437A1D00CF9B21 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D7E9B9281A437A5A00CF9B21 /* MinionBananaSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MinionBananaSound.mp3; sourceTree = "<group>"; };
+		D7E9B92A1A438A5C00CF9B21 /* MinionWaterSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MinionWaterSound.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D76E0DC41A3B9C1900E5DFEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7E9B9271A437A1D00CF9B21 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D76E0DD91A3B9C1900E5DFEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D76E0DBE1A3B9C1900E5DFEC = {
+			isa = PBXGroup;
+			children = (
+				D7E9B9261A437A1D00CF9B21 /* AVFoundation.framework */,
+				D76E0DC91A3B9C1900E5DFEC /* cardwar */,
+				D76E0DDF1A3B9C1900E5DFEC /* cardwarTests */,
+				D76E0DC81A3B9C1900E5DFEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D76E0DC81A3B9C1900E5DFEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D76E0DC71A3B9C1900E5DFEC /* cardwar.app */,
+				D76E0DDC1A3B9C1900E5DFEC /* cardwarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D76E0DC91A3B9C1900E5DFEC /* cardwar */ = {
+			isa = PBXGroup;
+			children = (
+				D7E9B92C1A4398BD00CF9B21 /* Sound */,
+				D76E0DCC1A3B9C1900E5DFEC /* AppDelegate.swift */,
+				D76E0DCE1A3B9C1900E5DFEC /* ViewController.swift */,
+				D76E0DD01A3B9C1900E5DFEC /* Main.storyboard */,
+				D76E0DD31A3B9C1900E5DFEC /* Images.xcassets */,
+				D76E0DD51A3B9C1900E5DFEC /* LaunchScreen.xib */,
+				D76E0DCA1A3B9C1900E5DFEC /* Supporting Files */,
+			);
+			path = cardwar;
+			sourceTree = "<group>";
+		};
+		D76E0DCA1A3B9C1900E5DFEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D76E0DCB1A3B9C1900E5DFEC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D76E0DDF1A3B9C1900E5DFEC /* cardwarTests */ = {
+			isa = PBXGroup;
+			children = (
+				D76E0DE21A3B9C1900E5DFEC /* cardwarTests.swift */,
+				D76E0DE01A3B9C1900E5DFEC /* Supporting Files */,
+			);
+			path = cardwarTests;
+			sourceTree = "<group>";
+		};
+		D76E0DE01A3B9C1900E5DFEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D76E0DE11A3B9C1900E5DFEC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D7E9B92C1A4398BD00CF9B21 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				D7E9B9281A437A5A00CF9B21 /* MinionBananaSound.mp3 */,
+				D7E9B92A1A438A5C00CF9B21 /* MinionWaterSound.mp3 */,
+			);
+			name = Sound;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D76E0DC61A3B9C1900E5DFEC /* cardwar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D76E0DE61A3B9C1900E5DFEC /* Build configuration list for PBXNativeTarget "cardwar" */;
+			buildPhases = (
+				D76E0DC31A3B9C1900E5DFEC /* Sources */,
+				D76E0DC41A3B9C1900E5DFEC /* Frameworks */,
+				D76E0DC51A3B9C1900E5DFEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cardwar;
+			productName = cardwar;
+			productReference = D76E0DC71A3B9C1900E5DFEC /* cardwar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D76E0DDB1A3B9C1900E5DFEC /* cardwarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D76E0DE91A3B9C1900E5DFEC /* Build configuration list for PBXNativeTarget "cardwarTests" */;
+			buildPhases = (
+				D76E0DD81A3B9C1900E5DFEC /* Sources */,
+				D76E0DD91A3B9C1900E5DFEC /* Frameworks */,
+				D76E0DDA1A3B9C1900E5DFEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D76E0DDE1A3B9C1900E5DFEC /* PBXTargetDependency */,
+			);
+			name = cardwarTests;
+			productName = cardwarTests;
+			productReference = D76E0DDC1A3B9C1900E5DFEC /* cardwarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D76E0DBF1A3B9C1900E5DFEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Hualin Ding";
+				TargetAttributes = {
+					D76E0DC61A3B9C1900E5DFEC = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					D76E0DDB1A3B9C1900E5DFEC = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = D76E0DC61A3B9C1900E5DFEC;
+					};
+				};
+			};
+			buildConfigurationList = D76E0DC21A3B9C1900E5DFEC /* Build configuration list for PBXProject "cardwar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D76E0DBE1A3B9C1900E5DFEC;
+			productRefGroup = D76E0DC81A3B9C1900E5DFEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D76E0DC61A3B9C1900E5DFEC /* cardwar */,
+				D76E0DDB1A3B9C1900E5DFEC /* cardwarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D76E0DC51A3B9C1900E5DFEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D76E0DD21A3B9C1900E5DFEC /* Main.storyboard in Resources */,
+				D76E0DD71A3B9C1900E5DFEC /* LaunchScreen.xib in Resources */,
+				D7E9B9291A437A5A00CF9B21 /* MinionBananaSound.mp3 in Resources */,
+				D76E0DD41A3B9C1900E5DFEC /* Images.xcassets in Resources */,
+				D7E9B92B1A438A5C00CF9B21 /* MinionWaterSound.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D76E0DDA1A3B9C1900E5DFEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D76E0DC31A3B9C1900E5DFEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D76E0DCF1A3B9C1900E5DFEC /* ViewController.swift in Sources */,
+				D76E0DCD1A3B9C1900E5DFEC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D76E0DD81A3B9C1900E5DFEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D76E0DE31A3B9C1900E5DFEC /* cardwarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D76E0DDE1A3B9C1900E5DFEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D76E0DC61A3B9C1900E5DFEC /* cardwar */;
+			targetProxy = D76E0DDD1A3B9C1900E5DFEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D76E0DD01A3B9C1900E5DFEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D76E0DD11A3B9C1900E5DFEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D76E0DD51A3B9C1900E5DFEC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D76E0DD61A3B9C1900E5DFEC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D76E0DE41A3B9C1900E5DFEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D76E0DE51A3B9C1900E5DFEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D76E0DE71A3B9C1900E5DFEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = cardwar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D76E0DE81A3B9C1900E5DFEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = cardwar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D76E0DEA1A3B9C1900E5DFEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = cardwarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cardwar.app/cardwar";
+			};
+			name = Debug;
+		};
+		D76E0DEB1A3B9C1900E5DFEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = cardwarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cardwar.app/cardwar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D76E0DC21A3B9C1900E5DFEC /* Build configuration list for PBXProject "cardwar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D76E0DE41A3B9C1900E5DFEC /* Debug */,
+				D76E0DE51A3B9C1900E5DFEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D76E0DE61A3B9C1900E5DFEC /* Build configuration list for PBXNativeTarget "cardwar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D76E0DE71A3B9C1900E5DFEC /* Debug */,
+				D76E0DE81A3B9C1900E5DFEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D76E0DE91A3B9C1900E5DFEC /* Build configuration list for PBXNativeTarget "cardwarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D76E0DEA1A3B9C1900E5DFEC /* Debug */,
+				D76E0DEB1A3B9C1900E5DFEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D76E0DBF1A3B9C1900E5DFEC /* Project object */;
+}
